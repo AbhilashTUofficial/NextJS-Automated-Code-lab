@@ -1,0 +1,94 @@
+.codeContainer {
+  background-color: #0f172a;
+  border-radius: 14px;
+  border: 1px solid #1e293b;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+}
+
+.tabHeader {
+  background-color: #1e293b;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #334155;
+  overflow-x: auto;
+}
+
+.tabList {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.tabBtn {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.8rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: all 0.15s ease;
+}
+
+.tabBtn:hover {
+  color: #f1f5f9;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.tabActive {
+  background-color: #0f172a !important;
+  color: #38bdf8 !important;
+  font-weight: 600;
+  border: 1px solid #334155;
+}
+
+.actionsGroup {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.copyBtn {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid #334155;
+  color: #e2e8f0;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: all 0.2s ease;
+}
+
+.copyBtn:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+}
+
+.codeBody {
+  padding: 1.25rem 1.5rem;
+  overflow-x: auto;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #e2e8f0;
+  margin: 0;
+}
+
+.codeBody pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+}

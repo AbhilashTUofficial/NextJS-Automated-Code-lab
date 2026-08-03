@@ -1,0 +1,19 @@
+.appLayout {
+  display: flex;
+  min-h-screen: 100vh;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.scrollArea {
+  flex: 1;
+  overflow-y: auto;
+  min-height: calc(100vh - 64px);
+}

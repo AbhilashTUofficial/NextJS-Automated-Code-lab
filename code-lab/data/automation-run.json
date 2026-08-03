@@ -1,0 +1,58 @@
+{
+  "lastRunTimeISO": "2026-08-12T08:15:00Z",
+  "lastRunTimeFormatted": "August 12, 2026 • 8:15 AM",
+  "automationStatus": "Active",
+  "scheduleCron": "Runs daily at 7:30 AM",
+  "nextRun": "Tomorrow 7:30 AM",
+  "recentEntry": {
+    "title": "Next.js 14 - Route Handlers",
+    "category": "App Router",
+    "filesCount": 4,
+    "description": "Learn how to create and use Route Handlers in the App Router for handling REST API requests, custom headers, and streaming responses.",
+    "highlights": [
+      "GET, POST, PUT, DELETE methods",
+      "Dynamic route handlers",
+      "Request & Response utilities",
+      "Error handling best practices"
+    ],
+    "targetTab": "app-router"
+  },
+  "automationSteps": [
+    {
+      "time": "7:30 AM",
+      "title": "Research & Discovery",
+      "desc": "Scanned Next.js releases, RFCs, and ecosystem updates",
+      "status": "completed"
+    },
+    {
+      "time": "7:40 AM",
+      "title": "Topic Selected",
+      "desc": "Next.js 14 - Route Handlers",
+      "status": "completed"
+    },
+    {
+      "time": "7:50 AM",
+      "title": "Code Generation",
+      "desc": "Example implementation created",
+      "status": "completed"
+    },
+    {
+      "time": "8:05 AM",
+      "title": "Validation",
+      "desc": "Lint, type-check, and build passed",
+      "status": "completed"
+    },
+    {
+      "time": "8:10 AM",
+      "title": "Documentation",
+      "desc": "README and usage guide generated",
+      "status": "completed"
+    },
+    {
+      "time": "8:15 AM",
+      "title": "Completed",
+      "desc": "Example added to repository",
+      "status": "completed"
+    }
+  ]
+}
